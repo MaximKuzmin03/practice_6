@@ -1,0 +1,8 @@
+def cumsum(t):
+    T = []
+    summa = 0
+    for i in range (len(t)):
+        t[i] += summa
+        summa = t[i]
+        T = append(t[i])
+    return T
