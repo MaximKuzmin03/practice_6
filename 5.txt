@@ -1,0 +1,7 @@
+def Is_sorted(t):
+    a = True
+    for i in range (1,len(t)):
+        if not t[i] >= t[i-1]:
+            a = False
+            break
+    return a
